@@ -12,10 +12,14 @@ composeBom = "2024.09.02"
 nav_version = "2.8.1"
 kotlinxSerializationJson = "1.6.3"
 kotlinxSerialization = "1.9.0"
+room_version = "2.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "nav_version" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room_version" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room_version" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room_version" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
